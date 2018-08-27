@@ -1,3 +1,4 @@
+// normal else/if statements 
 let moonPhase = 'solar eclipse'
 
 if (moonPhase === 'full') {
@@ -8,4 +9,22 @@ if (moonPhase === 'full') {
   console.log ('Back on two feet');
 } else {
   console.log ('Invalid moon phase');
+}
+
+// switch/ case statements
+let moonPhase = 'full';
+
+switch (moonPhase) {
+  case 'full':
+    console.log('Howl!');
+    break;
+  case 'mostly full':
+    console.logo('Arms and legs are getting hairier.');
+    break;
+  case 'mostly new':
+    console.log('Back on two feet');
+    break;
+  default: 
+    console.log('Invalid moon phase');
+    break;
 } 
